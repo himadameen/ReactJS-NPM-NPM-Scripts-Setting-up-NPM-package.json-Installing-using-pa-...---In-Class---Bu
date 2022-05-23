@@ -4,13 +4,13 @@ import "./../styles/App.css";
 function App() {
   const [show, setShow] = useState(false);
 
-  const parah = () => {
+  const para = () => {
     setShow(true);
   };
 
   return (
     <div id="main">
-      <button id="click" onClick={parah}>
+      <button id="click" onClick={para}>
         Click
       </button>
       {show && (
